@@ -51,7 +51,6 @@ void solve() {
         }
         dp1=dp;
     }
-
     cout<<dp[x];
 }
 
