@@ -35,7 +35,6 @@ vector<vector<bool> > vis;
 
 void dfs(int i, int j){
     if(i<0 || i>=n || j<0 || j>=m || vis[i][j]==true || adj[i][j]!='.') return;
-
     vis[i][j]=true;
     f(0,4,k) dfs(i+dx[k], j+dy[k]);
 }
